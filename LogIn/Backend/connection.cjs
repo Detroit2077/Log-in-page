@@ -1,29 +1,31 @@
-const mongoose = require('mongoose')
-mongoose.pluralize(null)
+// /* eslint-disable no-undef */
+// const mongoose = require('mongoose')
+// mongoose.pluralize(null)
 
-mongoose.connect("mongodb://0.0.0.0:27017/Login", {
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-})
-.then(() => {
-    console.log("MongoDB Connected");
-})
-.catch(() => {
-    console.log('Failed');
-})
+// mongoose.connect("mongodb+srv://kundansingh023230:GrIMaAEo5VUMTG3S@cluster0.obsclzk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+//     useNewUrlParser:true,
+//     useUnifiedTopology:true,
+
+// })
+// .then(() => {
+//     console.log("MongoDB Connected");
+// })
+// .catch(() => {
+//     console.log('Failed');
+// })
 
 
-const newSchema = new mongoose.Schema({
-    username:{
-        type:String,
-        required:true
-    },
-    password:{
-        type:String,
-        required:true
-    }
-})
+// const newSchema = new mongoose.Schema({
+//     username:{
+//         type:String,
+//         required:true
+//     },
+//     password:{
+//         type:String,
+//         required:true
+//     }
+// })
 
-const collection = mongoose.model("Information", newSchema)
+// const collection = mongoose.model("Information", newSchema)
 
-module.exports = collection
+// module.exports = collection
