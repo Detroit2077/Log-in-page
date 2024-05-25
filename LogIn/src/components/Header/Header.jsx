@@ -5,7 +5,7 @@ export default function Header() {
     <>
         <header>
             <div className='text-5xl rounded-2xl bg-black font-bold text-white font-sans py-4 mx-60'>
-                Todo List
+                Page
             </div>
         </header>
     </>
